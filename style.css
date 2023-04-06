@@ -31,6 +31,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .left {
@@ -103,11 +104,12 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #ccc;
-}
+} */
 
 .message {
   margin-bottom: 8rem;
@@ -116,4 +118,27 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+/* Link with Git */
+.git__link:link,
+.git__link:visited {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 0.8rem 1.6rem;
+  transition: all 0.3s;
+}
+
+.git__link:hover,
+.btn:hover {
+  transform: scale(1.02);
+  background-color: #ccc;
 }
