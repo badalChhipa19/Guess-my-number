@@ -10,4 +10,4 @@ if you guess lesser number it will show number is lesser and vice-versa for grat
 if your guessed number correct your best score stored and will visible until another best score counted, and background color change as you win, the number will shown, 
 and if you don't able to guess correct number in given attempt you lose the Game.
 
-#link - http://cmsapp.ml/guess_my_number/
+#link - http://cmsapp.ml/gmn/
